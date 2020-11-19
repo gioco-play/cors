@@ -9,5 +9,5 @@ composer create-project hyperf/component-creater
 ## publish config
 
 ```shell script
-php bin/hyperf.php vendor:publish gioco-plus/cors
+php bin/hyperf.php vendor:publish gioco-plus/hyperf-cors
 ```
