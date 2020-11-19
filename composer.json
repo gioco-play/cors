@@ -9,7 +9,7 @@
     "description": "hyperf cors component",
     "autoload": {
         "psr-4": {
-            "Twitf\\Cors\\": "src/"
+            "GiocoPlus\\Cors\\": "src/"
         }
     },
     "autoload-dev": {
@@ -19,15 +19,11 @@
     },
     "require": {
         "php": ">=7.2",
-        "ext-swoole": ">=4.4",
-        "hyperf/framework": "1.1.*",
-        "hyperf/di": "1.1.*"
+        "ext-swoole": ">=4.4"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.14",
-        "phpstan/phpstan": "^0.10.5",
-        "hyperf/testing": "1.1.*",
-        "swoft/swoole-ide-helper": "dev-master"
+        "phpstan/phpstan": "^0.10.5"
     },
     "config": {
         "sort-packages": true
@@ -39,7 +35,7 @@
     },
     "extra": {
         "hyperf": {
-            "config": "Twitf\\Cors\\ConfigProvider"
+            "config": "GiocoPlus\\Cors\\ConfigProvider"
         }
     }
 }
