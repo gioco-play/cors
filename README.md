@@ -15,7 +15,7 @@ php bin/hyperf.php vendor:publish gioco-plus/hyperf-cors
 ## usage
 
 ```php
- config/autoload/cors.php
+config/autoload/cors.php
 
 return [
     'http' => [
