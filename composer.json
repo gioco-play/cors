@@ -1,5 +1,5 @@
 {
-    "name": "gioco-plus/hyperf-mongodb",
+    "name": "gioco-plus/hyperf-cors",
     "type": "library",
     "license": "MIT",
     "keywords": [
