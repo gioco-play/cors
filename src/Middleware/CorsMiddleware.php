@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace GiocoPlus\Cors\Middleware;
 
-use Twitf\Cors\Cors;
+use GiocoPlus\Cors\Cors;
 use Hyperf\HttpServer\Contract\ResponseInterface as HttpResponse;
 use Hyperf\HttpMessage\Stream\SwooleStream;
 use Psr\Http\Message\ResponseInterface;
