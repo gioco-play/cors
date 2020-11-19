@@ -11,3 +11,16 @@ composer create-project hyperf/component-creater
 ```shell script
 php bin/hyperf.php vendor:publish gioco-plus/hyperf-cors
 ```
+
+## usage
+
+```php
+ config/autoload/cors.php
+
+return [
+    'http' => [
+        \GiocoPlus\Cors\Middleware\CorsMiddleware::class,
+    ],
+];
+
+```
