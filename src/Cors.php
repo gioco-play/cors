@@ -81,7 +81,7 @@ class Cors
         }
 
         $matches = collect($this->allowOrigins)->filter(function ($allowedOrigin) {
-            return fnmatch($allowedOrigin, $this->request->header('Origin'));
+            return fnmatch($allowedOrigin, current($this->request->getHeader('Origin')));
         });
 
         return $matches->count() > 0;
@@ -102,6 +102,6 @@ class Cors
             return '*';
         }
 
-        return $this->request->header('Origin');
+        return current($this->request->getHeader('Origin'));
     }
 }
